@@ -1,0 +1,68 @@
+body {
+  display: flex; /* Torna o body um container flexível */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo do body */
+  align-items: center; /* Centraliza verticalmente o conteúdo do body */
+  background-color: #a39c9c; /* Define uma cor de fundo inicial do body */
+}
+
+#master {
+  padding: 20px; /* Espaçamento interno do container master */
+  background-color: #ffffff; /* Cor de fundo branco do master */
+  border-radius: 10px; /* Bordas arredondadas do master */
+}
+
+.p {
+  font-size: 50px; /* Tamanho grande da fonte para elementos com classe .p */
+  margin-bottom: 20px; /* Espaço abaixo do elemento */
+}
+
+#btnadd, #btnremover, #btnapagar {
+  color: white; /* Cor do texto dos botões */
+  background-color: rgb(62, 28, 117); /* Cor de fundo dos botões */
+  padding: 8px 16px; /* Espaçamento interno dos botões */
+  border-radius: 5px; /* Bordas arredondadas dos botões */
+}
+
+#container {
+  display: flex; /* Torna o container flexível */
+  flex-direction: row; /* Organiza os itens em linha */
+  justify-content: center; /* Centraliza horizontalmente os itens */
+  align-items: flex-start; /* Alinha os itens no topo */
+  
+}
+
+#nu, #u {
+  display: flex; /* Torna as divs flexíveis */
+  flex-direction: column; /* Organiza os elementos internos em coluna */
+  align-items: center; /* Centraliza horizontalmente os elementos internos */
+  justify-content: flex-start; /* Alinha os elementos internos no topo */
+  text-align: center;
+  padding: 20px;
+  width: 300px; 
+  min-height: 300px; /* Altura mínima das divs */
+  border-radius: 10px; 
+}
+
+#nu h3 {
+  color: rgb(40, 83, 9); 
+}
+
+#nu {
+  background-color: #ade271; 
+}
+
+#u {
+  background-color: #e88989; 
+}
+
+#u h3 {
+  color: #6a1414; 
+}
+
+.nota {
+  padding: 10px; /* Espaçamento interno das notas */
+  margin: 10px 0; /* Espaço vertical entre notas */
+  border-radius: 5px; /* Bordas arredondadas das notas */
+  color: rgb(0, 0, 0); 
+}
+

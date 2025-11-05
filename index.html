@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade avaliativa</title>
+    <link rel="stylesheet" href="css/ex01.css">
+    <script type="text/javascript" src="js/ex01.js"></script>
+</head>
+<body>
+
+
+<div id="master">
+        <div class="p"><label for="nota">Digite a nota: </label></div><br>
+        <input type="text" id="nota"><br><br>
+        <label><input type="radio" name="nome" value="Urgente" checked> Urgente</label>
+        <label><input type="radio" name="nome" value="Não Urgente" checked> Não Urgente</label>
+
+<br><br>
+        <input type="button" id="btnadd" value="Adicionar" onclick="add()">
+        <input type="button" id="btnremover" value="Remover Item" onclick="removerTexto()">
+        <input type="button" id="btnapagar" value="Apagar Tudo" onclick="apagarTudo()">
+        <div id="resultado"></div>
+        <br><br>
+        <div id="container">
+            
+     <div id="nu"><h3> Não Urgente</h3></div>
+        
+        <br><br><br>
+            
+        <div id="u"><h3>Urgente</h3></div>
+        </div>
+</div>
+        
+</body>
+</html>
