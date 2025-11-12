@@ -3,10 +3,9 @@ function add() {
   var selecionado = document.querySelector('input[name="nome"]:checked'); // Pega o radio button selecionado (Urgente ou Não Urgente)
   var urgenteDiv = document.getElementById("u"); // Pega a div onde as notas urgentes serão adicionadas
   var naoUrgenteDiv = document.getElementById("nu"); // Pega a div onde as notas não urgentes serão adicionadas
-
+   
   if (nota === "") { // Verifica se o input está vazio
     alert("Digite uma nota!"); // Mostra alerta pedindo para digitar uma nota
-    return; // Encerra a função se o input estiver vazio
   }
 
   var novaNota = document.createElement("div"); // Cria uma nova div que vai conter a nota
@@ -29,7 +28,7 @@ function apagarTudo() {
   urgenteDiv.innerHTML = "<h3>Urgente</h3>"; // Apaga todo o conteúdo da div e mantém só o título "Urgente"
   naoUrgenteDiv.innerHTML = "<h3>Não Urgente</h3>"; // Apaga todo o conteúdo da div e mantém só o título "Não Urgente"
 
-  document.getElementById("nota").value = ""; // Limpa o input de nota
+  document.getElementById("nota").value = ""; // Limpa
 }
 
 function removerTexto() {
@@ -47,3 +46,4 @@ function removerTexto() {
     alert("Não há notas para remover!"); // Caso não haja notas, mostra alerta
   }
 }
+
